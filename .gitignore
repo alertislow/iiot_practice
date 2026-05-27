@@ -1,0 +1,26 @@
+# 虛擬環境 (最重要的，絕對不要傳上去，因為裡面有幾千個小檔案)
+venv/
+.env
+
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS 系統檔案
+.DS_Store
+
+# 編輯器設定
+.vscode/
+
+# MongoDB 資料檔案
+*.wt
+storage.bson
+size.stg
+release.txt
+mongod.lock
+journal/
+diagnostic.data/
+*.turtle
+mongod.lock
+WiredTiger*
